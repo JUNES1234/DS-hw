@@ -296,9 +296,9 @@ void testDataSet(int data[], int size, const char* datasetName) {
     }
     
     // 결과 출력
-    printf("배열(선형탐색) 평균 탐색 횟수: %.2f\n", totalArraySearch / 1000.0);
-    printf("BST 평균 탐색 횟수: %.2f\n", totalBSTSearch / 1000.0);
-    printf("AVL 평균 탐색 횟수: %.2f\n", totalAVLSearch / 1000.0);
+    printf("배열(선형탐색) 평균 탐색 횟수: %.2f회 탐색\n", totalArraySearch / 1000.0);
+    printf("BST 평균 탐색 횟수: %.2f회 탐색\n", totalBSTSearch / 1000.0);
+    printf("AVL 평균 탐색 횟수: %.2f회 탐색\n", totalAVLSearch / 1000.0);
     
     // 메모리 해제
     free(arrayData);
